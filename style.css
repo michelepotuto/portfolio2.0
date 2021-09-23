@@ -1,0 +1,27 @@
+html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.background {
+    position: fixed;
+    z-index: -99;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 900px;
+    color: #ffffff;
+  }
+
+  h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 900px;
+    color: #ffffff;
+  }
