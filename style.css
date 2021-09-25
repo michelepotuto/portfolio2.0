@@ -1,6 +1,4 @@
 html {
-    margin: 0;
-    padding: 0;
     text-align: center;
 }
 
@@ -54,7 +52,7 @@ html {
 
   .t2 {
     background-color: #E1E1E1;
-    width: 200px;
+    width: 220px;
     text-align: center;
     margin-top: 200px;
     border: solid;
@@ -66,7 +64,7 @@ html {
 
   .t3 {
     background-color: #E1E1E1;
-    width: 200px;
+    width: 220px;
     text-align: center;
     margin-top: 200px;
     border: solid;
@@ -82,7 +80,7 @@ html {
 
   ul#menu {
     font-family: 'Lexend', sans-serif;
-    font-size: 25px;
+    font-size: 21px;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -118,14 +116,53 @@ html {
     width: 240px;
     height: 60px;
 
+  }
+
+  ul#manu li {
+    background-color: rgba(255, 255, 255, 0.801);
+    border: 2px solid #343A40;
+    border-radius: 2px;
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    margin: 13px;
+    text-align: center;
+
 
 
   }
 
+  ul#manu {
+    font-family: 'Lexend', sans-serif;
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+
+  }
+
+  ul#manu li a {
+    color: #343A40;
+    line-height: 35px;
+    text-decoration: none;
+    width: 240px;
+    height: 60px;
+
+  }
+  
   ul#menu li.active,
   ul#menu li:hover {
     background-color: #343A40;
     border: 2px solid #E33737;
-    box-shadow: 0 1px 15px rgba(173, 110, 52), 0 6px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 2px rgba(173, 110, 52), 0 2px 2px rgba(0, 0, 0, 0.3);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  }
+
+  ul#manu li.active,
+  ul#manu li:hover {
+    background-color: #E33737;
+    border: 2px solid white;
+    box-shadow: 0 1px 2px rgba(173, 110, 52), 0 2px 2px rgba(0, 0, 0, 0.3);
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
   }
