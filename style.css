@@ -8,6 +8,7 @@ html {
     top: 0;
     left: 0;
     width: 100%;
+    
   }
   .navbar {
     padding-top: 0.625rem;
@@ -16,21 +17,6 @@ html {
     margin-bottom: 20px;
     box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 15%);
 }
-
-  h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
-    font-weight: 900px;
-    color: #ffffff;
-    margin-top: 28px;
-  }
-
-  h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 35px;
-    font-weight: 900px;
-    color: #ffffff;
-  }
 
   .container-lg {
   display: flex;
@@ -42,7 +28,7 @@ html {
     background-color: #E1E1E1;
     width: 220px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 85px;
     border: solid;
     border-width: 2px 2px 16px 2px;
     border-color: #3A4147;
@@ -54,7 +40,7 @@ html {
     background-color: #E1E1E1;
     width: 220px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 85px;
     border: solid;
     border-width: 2px 2px 16px 2px;
     border-color: #3A4147;
@@ -66,7 +52,7 @@ html {
     background-color: #E1E1E1;
     width: 220px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 85px;
     border: solid;
     border-width: 2px 2px 16px 2px;
     border-color: #3A4147;
@@ -76,7 +62,7 @@ html {
 
   .p {
     margin: 15px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
   
 
