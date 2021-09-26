@@ -42,7 +42,7 @@ html {
     background-color: #E1E1E1;
     width: 220px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
     border: solid;
     border-width: 2px 2px 16px 2px;
     border-color: #3A4147;
@@ -54,7 +54,7 @@ html {
     background-color: #E1E1E1;
     width: 220px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
     border: solid;
     border-width: 2px 2px 16px 2px;
     border-color: #3A4147;
@@ -66,7 +66,7 @@ html {
     background-color: #E1E1E1;
     width: 220px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
     border: solid;
     border-width: 2px 2px 16px 2px;
     border-color: #3A4147;
@@ -76,7 +76,9 @@ html {
 
   .p {
     margin: 15px;
+    font-family: 'Nunito Sans', sans-serif;
   }
+  
 
   ul#menu {
     font-family: 'Lexend', sans-serif;
